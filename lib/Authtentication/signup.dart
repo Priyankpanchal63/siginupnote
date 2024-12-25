@@ -4,7 +4,6 @@ import '../JsonModels/users.dart';
 import '../SQLite/sqlite.dart';
 import 'login.dart';
 
-
 class SignUp extends StatefulWidget {
   const SignUp({super.key});
 

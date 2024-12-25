@@ -26,8 +26,6 @@ class DatabaseHelper {
     });
   }
 
-
-
   Future<bool> login(Users user) async {
     final Database db = await initDB();
 

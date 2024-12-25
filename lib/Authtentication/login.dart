@@ -5,7 +5,6 @@ import '../JsonModels/users.dart';
 import '../SQLite/sqlite.dart';
 import '../Views/notes.dart';
 
-
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
 
@@ -47,6 +46,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   //We have to create global key for our form
   final formKey = GlobalKey<FormState>();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

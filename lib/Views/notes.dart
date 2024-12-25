@@ -5,7 +5,6 @@ import '../JsonModels/note_model.dart';
 import '../SQLite/sqlite.dart';
 import 'create_note.dart';
 
-
 class Notes extends StatefulWidget {
   const Notes({super.key});
 

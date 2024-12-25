@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../JsonModels/note_model.dart';
 import '../SQLite/sqlite.dart';
 
-
 class CreateNote extends StatefulWidget {
   const CreateNote({super.key});
 
@@ -17,6 +16,7 @@ class _CreateNoteState extends State<CreateNote> {
   final formKey = GlobalKey<FormState>();
 
   final db = DatabaseHelper();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
